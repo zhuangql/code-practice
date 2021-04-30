@@ -1,0 +1,3 @@
+/home/xeniro/桌面/11/33333/CMakeFiles/rebuild_cache.dir
+/home/xeniro/桌面/11/33333/CMakeFiles/demo.dir
+/home/xeniro/桌面/11/33333/CMakeFiles/edit_cache.dir

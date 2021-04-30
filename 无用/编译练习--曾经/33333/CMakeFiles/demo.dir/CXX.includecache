@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xeniro/桌面/11/33333/main.cpp
+student.h
+/home/xeniro/桌面/11/33333/student.h
+
+/home/xeniro/桌面/11/33333/student.cpp
+iostream
+-
+student.h
+/home/xeniro/桌面/11/33333/student.h
+
+/home/xeniro/桌面/11/33333/student.h
+iostream
+-
+

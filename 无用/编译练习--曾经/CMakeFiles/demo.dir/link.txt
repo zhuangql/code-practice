@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g  -rdynamic CMakeFiles/demo.dir/main.cpp.o CMakeFiles/demo.dir/student.cpp.o  -o demo  -Wl,-rpath,/usr/local/boost/lib /usr/local/boost/lib/libboost_program_options.so.1.75.0 /usr/local/boost/lib/libboost_unit_test_framework.so.1.75.0 

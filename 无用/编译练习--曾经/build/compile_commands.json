@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/xeniro/桌面/11/build",
+  "command": "/usr/bin/g++-7  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -isystem /usr/local/boost/include  -g   -o CMakeFiles/demo.dir/main.cpp.o -c /home/xeniro/桌面/11/main.cpp",
+  "file": "/home/xeniro/桌面/11/main.cpp"
+},
+{
+  "directory": "/home/xeniro/桌面/11/build",
+  "command": "/usr/bin/g++-7  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -isystem /usr/local/boost/include  -g   -o CMakeFiles/demo.dir/student.cpp.o -c /home/xeniro/桌面/11/student.cpp",
+  "file": "/home/xeniro/桌面/11/student.cpp"
+}
+]

@@ -1,0 +1,48 @@
+编译命令
+g++ -g main.cpp -o main  -I /home/ferry/eosio/2.0/src/boost_1_71_0/include/ -L /home/ferry/eosio/2.0/src/boost_1_71_0/lib -l boost_program_options -static
+
+-I 头文件目录  -L 库目录  -l 库文件
+
+boost_program_options使用说明文档
+https://wenku.baidu.com/view/c20c4a218e9951e79b8927d3.html
+
+g++
+
+-include file
+　　包含某个代码,简单来说,就是便以某个文件,需要另一个文件的时候,就可以用它设定,功能就相当于在代码中使用#include<filename>
+　　例子用法:
+　　gcc hello.c -include /root/pianopan.h
+
+-Idir
+　　在你是用#include"file"的时候,gcc/g++会先在当前目录查找你所制定的头文件,如果没有找到,他回到缺省的头文件目录找(/usr/include-->/usr/local/include),如果使用-I制定了目录,他
+　　回先在你所制定的目录查找,然后再按常规的顺序去找.
+　　对于#include<file>,gcc/g++会到-I制定的目录查找,查找不到,然后将到系统的缺省的头文件目录查找
+
+-llibrary
+　　制定编译的时候使用的库
+　　例子用法
+　　gcc -lcurses hello.c
+　　使用ncurses库编译程序
+
+-Ldir
+　　制定编译(連接)的时候，搜索库的路径。比如你自己的库，可以用它制定目录，不然
+　　编译器将只在标准库的目录找。这个dir就是目录的名称。
+
+-o
+
+制定目标名称,缺省的时候,gcc 编译出来的文件是a.out
+
+-g
+只是编译器，在编译的时候，产生调试信息。
+
+-static 此选项将禁止使用动态库。
+
+优点：程序运行不依赖于其他库
+
+缺点：文件比较大
+
+    -shared (-G) 此选项将尽量使用动态库，为默认选项
+
+优点：生成文件比较小
+
+缺点：运行时需要系统提供动态库

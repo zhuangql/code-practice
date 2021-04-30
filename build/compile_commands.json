@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ferry/Desktop/code/build",
+  "command": "/usr/bin/g++-7    -g   -o CMakeFiles/boost.dir/main.cpp.o -c /home/ferry/Desktop/code/main.cpp",
+  "file": "/home/ferry/Desktop/code/main.cpp"
+}
+]
