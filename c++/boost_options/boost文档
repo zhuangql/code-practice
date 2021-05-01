@@ -1,6 +1,6 @@
 编译命令
 g++ -g main.cpp -o main  -I /home/ferry/eosio/2.0/src/boost_1_71_0/include/ -L /home/ferry/eosio/2.0/src/boost_1_71_0/lib -l boost_program_options -static
-
+-Wl,-rpath=/usr/local/lib 指定动态库搜索路径
 -I 头文件目录  -L 库目录  -l 库文件
 
 boost_program_options使用说明文档
