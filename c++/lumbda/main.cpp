@@ -3,6 +3,7 @@ using namespace std;
 //lumbda表达式  中 捕获this：
 //1、值捕获，[this]{this->}
 //2、引用，[&]{this->}
+//3、[=]也可以用this，没试验；
 class Foo
 {
     public:
